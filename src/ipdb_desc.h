@@ -1,4 +1,4 @@
-﻿/*
+/*
  *  File   : ipdb_desc.h
  *  Author : Jiang Wangsheng
  *  Date   : 2012/04/17 09:34:23

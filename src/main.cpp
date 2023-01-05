@@ -1,4 +1,4 @@
-﻿// test app package
+// test app package
 //
 
 #include "misc/common_mp.h"
