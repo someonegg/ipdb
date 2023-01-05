@@ -1,0 +1,6 @@
+g++ -o ipdb.cgi -I /usr/local/ipdb/include/ ipdb.cpp -lfastcgipp -lboost_thread -L /usr/local/ipdb/lib/ -lipdb
+sudo spawn-fcgi -a 127.0.0.1 -p 8888 -F 2 -g www -u cgi -- ./ipdb.cgi /usr/local/ipdb/data/ipdb_cnt
+
+fastcgi++ ±àÒëÐÞ¸Ä
+http.hpp:321		Environment(): requestMethod(HTTP_METHOD_ERROR),...
+http.cpp:80,98		++i>=size

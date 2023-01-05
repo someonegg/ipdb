@@ -1,0 +1,6 @@
+cd build
+chmod +x nobomb.sh
+./nobomb.sh ../src/
+cmake -DCMAKE_INSTALL_PREFIX=/dest/dir ..
+make
+make install
